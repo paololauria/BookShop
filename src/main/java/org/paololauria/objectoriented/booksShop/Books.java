@@ -73,7 +73,7 @@ public class Books {
     }
 
     public void infoBook(){
-        String information = "********** \nTITLE \n" + this.getTitle() + "\nGENRE \n" + this.getTitle() + "\nYEAR \n" + this.getPublicationYear() + "\nAUTHOR \n" + this.getAuthor() + "\nPAGES \n" + this.getPages() + "\nPRICE \n" + this.getPrice() + "€ \n" + "AVAILABLE \n" + this.isAvailable() + "\n**********\n";
+        String information = "********** \nTITLE \n" + this.getTitle() + "\nGENRE \n" + this.getGenre() + "\nYEAR \n" + this.getPublicationYear() + "\nAUTHOR \n" + this.getAuthor() + "\nPAGES \n" + this.getPages() + "\nPRICE \n" + this.getPrice() + "€ \n" + "AVAILABLE \n" + this.isAvailable() + "\n**********\n";
         System.out.println(information);
     }
 }
